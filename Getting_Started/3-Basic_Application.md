@@ -24,5 +24,6 @@ terminal.log("Hello, world!");
 ```js
 const { terminal }  = require("@illuxdev/exolix-terminal");
 
+// Log a message
 terminal.log("Hello, world!");
 ```
