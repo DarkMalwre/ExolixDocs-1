@@ -1,6 +1,10 @@
 # Logging Messags
 In this tutorial, we will learn how to log different messages to the terminal
 
+**All examples bellow use the same import statement**<br />
+**TypeScript**: `import { terminal } from "@illuxdev/exolix-terminal";`<br />
+**JavaScript**: `const { terminal } = require("@illuxdev/exolix-terminal");`
+
 # Basic Text
 **TypeScript**
 ```ts
@@ -40,7 +44,7 @@ terminal.warning("Hello, warning message!");
 ```
 
 **JavaScript**
-```
+```js
 // ...
 terminal.warning("Hello, warning message!");
 // ...
