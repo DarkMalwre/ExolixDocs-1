@@ -16,9 +16,13 @@ yarn add @illuxdev/exolix-terminal
 **TypeScript**
 ```ts
 import { terminal } from "@illuxdev/exolix-terminal";
+
+terminal.log("Hello, world!");
 ```
 
 **JavaScript**
 ```js
 const { terminal } = require("@illuxdev/exolix-terminal");
+
+terminal.log("Hello, world!");
 ```
